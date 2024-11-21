@@ -1,6 +1,6 @@
 backend:
     functions:
-        - entry: app.mjs
+        - entry: app.js
           handler: handler
           name: express-mongo-starter
           path: ./
