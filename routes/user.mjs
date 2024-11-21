@@ -4,7 +4,7 @@ import User from '../models/user.mjs';
 const router = express.Router();
 
 // Create a new user
-router.post('/', async (req, res) => {
+router.post('/user', async (req, res) => {
     try {
         const user = new User({
             email: req.body.email,
